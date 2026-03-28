@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: pink;
+    color: #FFFFFF;
+    padding: 30px 80px;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+}
+.divPrincipal {
+   /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    background: #111111;
+    width: 100%;
+    height: 2000px;
+    position: absolute;
+    top: 0px;
+    right: 1000px;
+    transform: rotate(55deg);
+}
+body::after {
+    content: "MaryJane";
+    position: absolute;
+    color: #111111;
+    opacity: 20%;
+    transform: translate(-50%, -50%) rotate(55deg);
+    font-size: 240px;
+    font-weight: bold;
+    top: 50%;
+    left: 78%;
+}
+
+
+
+.logo {
+    width: 100px;
+    z-index: 3;
+}
+.divLogo {
+    /*background-color: red;*/
+    width: 100px;
+    margin-top: -40px;
+    margin-left: -60px;  
+    position: relative; 
+    z-index: 3; 
+}
+
+
+
+.adicionarCarrinho {
+    font-size: 23px;
+    padding: 5px;
+    color: black;
+    background: pink;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.adicionarCarrinho:hover {
+    opacity: 0.8;
+}
+
+
+
+.sapato1 {
+    width: 1000px;
+    transform: rotate(-10deg);
+}
+.divSapato {
+    /* background-color: red; */
+    width: 800px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.divTexto {
+    margin-top: -100px;
+}
+
+.sapatoPreco {
+    font-size: 40px;
+}
+
+
+
+.sapatoDescricao {
+    max-width: 800px;
+    font-size: 22px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+
+
+.sapatoTexto {
+    font-size: 100px;
+    max-width: 600px;
+}
+
+
+
+.divBotoes {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.botao:active {
+    opacity: 70%;
+}
+
+.Branco {
+    background: #ffffff;
+}
+
+.Lilas {
+    background: #b292ec;
+}
+
+.Rosa {
+    background: #ffc0cb;
+
+}

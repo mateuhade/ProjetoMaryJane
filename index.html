@@ -1,0 +1,59 @@
+<!DOCTYPE html>        <!-- Versão do html -->
+
+<html lang="pt-br">    <!-- a tag que indica o começo do script do site-->
+
+
+    <head>                 <!-- diz as configurações do site-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Mary Jane</title>
+    </head>                <!-- quando vamos fechar uma tag precisamos usar </nome da tag> -->
+
+
+    <body>                 <!-- diz tudo o que o usuário consegue ver no site-->
+        <div class="divLogo">
+            <img src="img/logo.png" class="logo">
+        </div>
+
+        <div class="divPrincipal">
+            <div class="divTexto">
+                <h4 class="sapatoPreco">R$ 299,99</h4>
+
+                <h1 class="sapatoTexto">Mary Jane Heels</h1>
+
+                <p class="sapatoDescricao">
+                    O clássico Mary Jane ganha uma vibe atual mantendo a essência clássica e com salto confortável. Ele tem aquele charme retrô que faz 
+                    toda diferença no look.
+                </p>
+
+                <div class="divCarrinho">
+                    <a class="adicionarCarrinho"> 
+                    Adicionar ao Carrinho 
+                    </a>
+                </div>
+
+            <div class="divBotoes">
+                <div onclick="mudarCor('#ffffff', 'img/maryjane3.png')" class="botao Lilas"></div>
+                <div onclick="mudarCor('#b292ec', 'img/maryjane2.png')" class="botao Rosa"></div>
+                <div onclick="mudarCor('#ffc0cb', 'img/maryjane.png')" class="botao Branco"></div>
+            </div>    
+            </div>
+
+
+                    
+            <div class="divSapato">
+                <img src="img/maryjane.png" class="sapato1">
+            </div>
+            
+
+
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+
+</html>
